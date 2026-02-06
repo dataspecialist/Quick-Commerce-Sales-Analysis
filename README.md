@@ -20,9 +20,11 @@ This project presents an **end-to-end Power BI dashboard** analyzing **Blinkit's
 * **Average Rating:** 4/5 (Customer satisfaction score).
 
 ## 🧹 Data Preparation & Semantic Layer:
-* Standardized categorical values (e.g., LF → Low Fat)
-* Created calculated measures using DAX
-* Designed a star-schema-ready semantic model
+To ensure data integrity and optimal dashboard performance, the following technical steps were implemented:
+* **Advanced Data Cleaning:** Utilized Power Query to standardize inconsistent categorical values (e.g., mapping "LF" and "low fat" to "Low Fat") to ensure accurate aggregation.
+* **DAX Measure Development:** Authored complex calculated measures using DAX to track real-time KPIs, including Total Sales, Average Rating, and Year-over-Year growth simulations.
+* **Star-Schema Modeling:** Designed a robust semantic model optimized for performance, utilizing a star-schema approach to facilitate seamless filtering across multiple dimensions (Outlet, Item Type, and Location).
+* **Attribute Engineering:** Created custom groupings and bins for outlet sizes and item categories to provide deeper granularity in stakeholder reporting.
 
 ## 🔍 Key Insights:
 1.  **Consumer Health Shift:** "Low Fat" products generate significantly higher sales ($776K) compared to "Regular" products ($425K).
